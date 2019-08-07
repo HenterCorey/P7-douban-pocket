@@ -1,0 +1,30 @@
+.navber-container {
+    width: 100%;
+    height: 80px;
+    background: #F1F1F1;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.book,.music,.video {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.book img,.music img,.video img {
+    flex-grow: 1;
+    width: 50px;
+    height: 50px;
+    padding-bottom: 10px;
+}
+.book span,.music span,.video span {
+    flex: 0;
+    margin-bottom: 10px;
+    margin-top: -20px;
+}
+

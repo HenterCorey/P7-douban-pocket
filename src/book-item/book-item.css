@@ -1,0 +1,41 @@
+.book-item {
+    margin: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    z-index: 2;
+}
+.book-image {
+    width: 118.8px;
+    height: 160px;
+    margin-right: 40px;
+}
+.tags {
+    height: 21.143px;
+    margin-bottom: 10px;
+}
+.tag {
+    color: white;
+    background-color: orange;
+    padding: 3px;
+    margin-right: 5px;
+}
+
+.book-item-rigth {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.book-item-rigth p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.book-item-left {
+    width: 164px;
+}

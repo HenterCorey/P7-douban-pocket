@@ -1,0 +1,86 @@
+.book-details-item {
+    width: 100%;
+}
+.book-details-head {
+    height: 50px;
+    background-color: #318DFF;
+    color: antiquewhite;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.book-details-head div {
+    width: 75px;
+}
+.book-details-head span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.back-book {
+    height: 50px;
+    width: 80px;
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+.back {
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    transform: rotate(-135deg);
+}
+.back-book span {
+    align-self: center;
+
+}
+.book-details-title {
+    flex: 1;
+    align-self: center;
+    text-align:center;
+}
+.book-details-information {
+    display: flex;
+    border-bottom: 1px solid #ccc ;
+    padding-bottom: 5px;
+}
+.book-details-information-left img {
+    width: 130px;
+    height: 200px;
+    margin-right: 20px;
+}
+.book-details-information-right {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.book-details-information-right p {
+    margin-top: 0;
+    margin-bottom: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.book-details-introduce h3,.book-details-introduce p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.book-details-introduce p {
+    text-indent: 2em;
+
+}
+.tags {
+    overflow: hidden;
+}
+

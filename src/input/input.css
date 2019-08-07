@@ -1,0 +1,31 @@
+.input-container {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.input-container input {
+    margin: 0;
+    font-size: 20px;
+    padding: 14px;
+    box-shadow: inset 0 -1px 1px rgba(0,0,0,0.03);
+    border: 1px solid #eee;
+    background: #fff;
+    box-sizing: border-box;
+    color: #333;
+    flex: 1;
+}
+.input-container button{
+    background:#43A6FF;
+    width: 52px;
+    height: 52px;
+    color: #fff;
+    font-size: 14px;
+    border: 0;
+    padding: 0;
+}

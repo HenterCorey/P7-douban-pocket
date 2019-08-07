@@ -1,0 +1,83 @@
+.music-details-item {
+    width: 100%;
+}
+.music-details-head {
+    height: 50px;
+    background-color: #318DFF;
+    color: antiquewhite;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+}
+.music-details-head span {
+    max-width: 230px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.music-details-head div {
+    width: 75px;
+}
+.back-music {
+    height: 50px;
+    width: 80px;
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+.back {
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    transform: rotate(-135deg);
+}
+.back-music span {
+    align-self: center;
+
+}
+.music-details-title {
+    flex: 1;
+    align-self: center;
+    text-align:center;
+}
+.music-details-information {
+    display: flex;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+.music-details-information-left img {
+    width: 130px;
+    height: 180px;
+    margin-right: 20px;
+}
+.music-details-information-right {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.music-details-information-right p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.music-tags {
+    margin-bottom: 10px;
+}
+.music-tag {
+    color: white;
+    background: orange;
+    margin: 0 5px 0 0;
+}
+

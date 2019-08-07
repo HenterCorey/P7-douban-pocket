@@ -1,0 +1,42 @@
+.video-item {
+    margin: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+
+}
+.video-image {
+    width: 118.8px;
+    height: 160px;
+    margin-right: 15px;
+}
+.video-tags {
+    margin-bottom: 10px;
+}
+.video-names {
+    margin-bottom: 10px;
+}
+.video-name {
+    color: #999;
+}
+.video-tag {
+    color: white;
+    background-color: red;
+    padding: 3px;
+    margin-right: 5px;
+}
+.video-item-rigth {
+    display: flex;
+    flex-direction: column;
+}
+.video-item-rigth p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.video-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+.video-average {
+    font-weight: bold;
+}
